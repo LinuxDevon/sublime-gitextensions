@@ -7,9 +7,20 @@ This Sublime Text plugin provides an interface to [Git Extensions].
 
 ## Installation ##
 
-1. Package Manager: Add Repository -> `https://github.com/ar7bd/sublime-gitextensions`
-2. Package Manager: Install Package -> `sublime-gitextensions`
-3. Preferences -> Package Settings -> GitExtensions -> Settings - User -> [GitExtensions.sublime-settings](https://github.com/ar7bd/sublime-gitextensions/blob/master/GitExtensions.sublime-settings)
+### Required Programs ###
+
+1. [Git Extensions]
+
+### Package Control ###
+
+Using [Package Control](https://packagecontrol.io/), under `Git Extensions`.
+
+## Settings ##
+
+Settings can be accessed: `Preferences -> Package Settings -> GitExtensions -> Settings`.
+
+If you have changed the default `gitex` command, then this is the location to
+change it here.
 
 ## Usage ##
 
