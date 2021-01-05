@@ -91,21 +91,12 @@
         "id": "package-settings",
         "children": [
           {
-            "caption": "GitExtensions",
-            "children": [
-              {
-                "caption": "Settings – Default",
-                "command": "open_file", "args": {
-                  "file": "${packages}/GitExtensions/GitExtensions.sublime-settings"
-                }
-              },
-              {
-                "caption": "Settings – User",
-                "command": "open_file", "args": {
-                  "file": "${packages}/User/GitExtensions.sublime-settings"
-                }
-              }
-            ]
+            "caption": "Git Extensions - Settings",
+            "command": "edit_settings",
+            "args": {
+                 "base_file": "${packages}/GitExtensions/GitExtensions.sublime-settings",
+                 "default": "{\n\t$0\n}\n"
+            }
           }
         ]
       }
