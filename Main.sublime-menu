@@ -4,7 +4,7 @@
     "id": "tools",
     "children": [
       {
-        "caption": "GitExtensions",
+        "caption": "Git Extensions",
         "id": "git_extensions",
         "children": [
           {
@@ -97,7 +97,7 @@
               "caption": "Settings",
               "command": "edit_settings",
               "args": {
-                 "base_file": "${packages}/sublime-gitextensions/GitExtensions.sublime-settings",
+                 "base_file": "${packages}/Git Extensions/GitExtensions.sublime-settings",
                  "default": "//Git Extensions User Settings\n{\n\t$0\n}\n"
                 }
               }
